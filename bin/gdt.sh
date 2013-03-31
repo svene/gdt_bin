@@ -1,1 +1,1 @@
-groovy %~dp0/gdt.groovy $*
+groovy `dirname $0`/gdt.groovy $*
