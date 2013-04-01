@@ -17,4 +17,4 @@ Git git = new Git(repository)
 PullCommand pull = git.pull()
 pull.call();
 
-
+println "gdt updated to latest version"
