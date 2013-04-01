@@ -3,7 +3,9 @@
 import org.svenehrke.directorytemplate.tool.GdtMain
 
 if (args.size() == 1 && args[0] == 'selfupdate') {
-	new gdt_update().run() 
+	File f = new File("${getClass().protectionDomain.codeSource.location.path}")
+	String scriptFolder = f.parentFile.absolutePath
+	run (new File("$scriptFolder/gdt_update.groovy"), [] as String[])
 }
 else {
 	new GdtMain().run(args)
