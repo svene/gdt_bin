@@ -8,7 +8,6 @@ import org.eclipse.jgit.storage.file.FileRepositoryBuilder
 String userHome = System.properties['user.home']
 String gdtHome = "${userHome}/.gdt"
 
-String remoteUrl = "https://github.com/svene/gdt_bin.git"
 String localRepoLocation = "${gdtHome}/bin"
 
 FileRepositoryBuilder builder = new FileRepositoryBuilder();
