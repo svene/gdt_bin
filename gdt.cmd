@@ -1,1 +1,1 @@
-groovy %~dp0/gdt.groovy %*
+groovy "%~dp0/gdt.groovy" %*
