@@ -1,5 +1,5 @@
 
-@Grab(group='org.eclipse.jgit', module='org.eclipse.jgit', version='2.3.1.201302201838-r')
+@Grab(group='org.eclipse.jgit', module='org.eclipse.jgit', version='3.3.1.201403241930-r')
 import org.eclipse.jgit.api.CloneCommand
 import org.eclipse.jgit.api.Git
 import org.eclipse.jgit.lib.Repository
